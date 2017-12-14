@@ -31,8 +31,8 @@ void spawnFruit();
  * smaller than the width/height constraints. 
  */
 struct Posn {
-	int x;
-	int y;
+    int x;
+    int y;
 };
 
 /**
@@ -40,11 +40,19 @@ struct Posn {
  * snake may move in any of the four cardinal directions.
  */
 enum Direction {
-	UP,
-	DOWN,
-	LEFT,
-	RIGHT,
-	INVALID
+    UP,
+    DOWN,
+    LEFT,
+    RIGHT,
+    INVALID
+};
+
+enum ButtonVals {
+    B = 49,
+    KEYPAD_UP = 103,
+    KEYPAD_DOWN = 108,
+    KEYPAD_LEFT = 105,
+    KEYPAD_RIGHT = 106;
 };
 
 bool ended;

@@ -2,14 +2,14 @@
 #define WIIMOTEBTNS_H
 
 class WiimoteBtns {
-	private:
-		int fd;
-	public:
-		WiimoteBtns();
+    private:
+        int fd;
+    public:
+        WiimoteBtns();
 
-		~WiimoteBtns();
+        ~WiimoteBtns();
 
-		void listen();
+        void listen();
 };
 
 #endif
